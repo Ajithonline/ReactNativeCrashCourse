@@ -1,8 +1,9 @@
 import React from 'react';
+import { View, Text } from 'react-native';
 import Flex from './Screens/Flex';
-
+import Counter from './Screens/Counter';
 const App = () => {
-  return <Flex></Flex>;
+  return <Counter></Counter>;
 };
 
 export default App;
