@@ -10,8 +10,9 @@ import Navigations from './Screens/Navigations/Navigations';
 import ActivityIndicatorScreen from './Screens/Components/ActivityIndicatorScreen';
 import SwitchScreen from './Screens/Components/SwitchScreen';
 import AlertScreen from './Screens/Components/AlertScreen';
+import ImageScreen from './Screens/Components/ImageScreen';
 const App = () => {
-  return <AlertScreen></AlertScreen>;
+  return <ImageScreen></ImageScreen>;
 };
 
 export default App;
