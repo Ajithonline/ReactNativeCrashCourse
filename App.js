@@ -7,9 +7,10 @@ import Theme from './Screens/Theme';
 import Home from './Screens/Scoring/Home';
 import MoviesListApp from './Screens/MoviesListApp';
 import Navigations from './Screens/Navigations/Navigations';
+import ActivityIndicatorScreen from './Screens/Components/ActivityIndicatorScreen';
 
 const App = () => {
-  return <Navigations></Navigations>;
+  return <ActivityIndicatorScreen></ActivityIndicatorScreen>;
 };
 
 export default App;
