@@ -7,6 +7,7 @@ const SwitchScreen = () => {
   const onChangeSwitchState = () => {
     setIsEnabled((currentValue) => !currentValue);
   };
+
   return (
     <View style={styles.container}>
       <Switch
