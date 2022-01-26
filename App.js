@@ -8,9 +8,9 @@ import Home from './Screens/Scoring/Home';
 import MoviesListApp from './Screens/MoviesListApp';
 import Navigations from './Screens/Navigations/Navigations';
 import ActivityIndicatorScreen from './Screens/Components/ActivityIndicatorScreen';
-
+import SwitchScreen from './Screens/Components/SwitchScreen';
 const App = () => {
-  return <ActivityIndicatorScreen></ActivityIndicatorScreen>;
+  return <SwitchScreen></SwitchScreen>;
 };
 
 export default App;
