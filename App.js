@@ -11,8 +11,9 @@ import ActivityIndicatorScreen from './Screens/Components/ActivityIndicatorScree
 import SwitchScreen from './Screens/Components/SwitchScreen';
 import AlertScreen from './Screens/Components/AlertScreen';
 import ImageScreen from './Screens/Components/ImageScreen';
+import ModalScreen from './Screens/Components/ModalScreen';
 const App = () => {
-  return <ImageScreen></ImageScreen>;
+  return <ModalScreen></ModalScreen>;
 };
 
 export default App;
